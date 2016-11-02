@@ -81,7 +81,7 @@
 		</div>
 		
 		<!--iniciando conteudo-->
-		<h1>Adoção</h1>
+		<h1>Encontre 1 Par</h1>
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
@@ -93,7 +93,7 @@
 					<h4>Beethoven</h4>
 					<h5>5 anos</h5>
 					<h5>Vira lata</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
@@ -104,7 +104,7 @@
 					<h4>Kuki</h4>
 					<h5>2anos</h5>
 					<h5>Vira lata</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
@@ -115,7 +115,7 @@
 					<h4>Spike</h4>
 					<h5>3anos</h5>
 					<h5>Pitbull</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -129,7 +129,7 @@
 					<h4>Mimu</h4>
 					<h5>2anos</h5>
 					<h5>Persa</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
@@ -140,7 +140,7 @@
 					<h4>Luke</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
@@ -151,7 +151,7 @@
 					<h4>Kobra</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
-					<h5>Adoção</h5>
+					<h5>Procurando Par</h5>
 				</div>
 		
 		
@@ -209,4 +209,3 @@
 	
 </body>
 </html>
-
