@@ -74,7 +74,7 @@
 			</div>
 			<div class="w3ls_dresses_grid_left_grid">
 				<div class="dresses_img_hover">
-					<img src="images/anuncieaqui.png" alt=" " class="img-responsive" />
+					<img src="imagens/anuncieaqui.png" alt=" " class="img-responsive" />
 					
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 			<div class="women-set1">
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog1.jpg" alt="" />
+						<img src="imagens/dog1.jpg" alt="" />
 						
 					</div></a>
 					
@@ -94,7 +94,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog2.jpg" alt="" />
+						<img src="imagens/dog2.jpg" alt="" />
 						
 					</div></a>
 					
@@ -105,7 +105,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog3.jpg" alt="" />
+						<img src="imagens/dog3.jpg" alt="" />
 						
 					</div></a>
 					
@@ -119,7 +119,7 @@
 			<div class="women-set2">
 				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/cat1.jpg" alt="" />
+						<img src="imagens/cat1.jpg" alt="" />
 					
 					</div></a>
 					
@@ -128,7 +128,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog4.jpg" alt="" />
+						<img src="imagens/dog4.jpg" alt="" />
 						
 					</div></a>
 					
@@ -137,7 +137,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp6 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog5.jpg" alt="" />
+						<img src="imagens/dog5.jpg" alt="" />
 						
 					</div></a>
 				
@@ -149,7 +149,7 @@
 			<div class="women-set3">
 				<div class="col-md-4 women-grids mp7 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog6.jpg" alt="" />
+						<img src="imagens/dog6.jpg" alt="" />
 						
 					</div></a>
 					
@@ -158,7 +158,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp8 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog7.jpg" alt="" />
+						<img src="imagens/dog7.jpg" alt="" />
 						
 					</div></a>
 					
@@ -167,7 +167,7 @@
 				</div>
 				<div class="col-md-4 women-grids wp9 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="single.html"><div class="product-img">
-						<img src="images/dog8.jpg" alt="" />
+						<img src="imagens/dog8.jpg" alt="" />
 					</div></a>
 					
 					<h4>Scob</h4>
@@ -178,23 +178,7 @@
 		</div>
 	</div>
 </div>
-<!-- newsletter -->
-	<div class="newsletter">
-		<div class="container">
-			<div class="col-md-6 w3agile_newsletter_left">
-				<h2>Se inscrever</h2>
-				<p>Se inscreva e receba noticias.</p>
-			</div>
-			<div class="col-md-6 w3agile_newsletter_right">
-				<form action="#" method="post">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="submit" value="inscrever" />
-				</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //newsletter -->
+
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
