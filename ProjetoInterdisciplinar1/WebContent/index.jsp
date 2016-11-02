@@ -214,7 +214,7 @@
 			<ul>
 				
 				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Se cadastre</a></li>
+				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>

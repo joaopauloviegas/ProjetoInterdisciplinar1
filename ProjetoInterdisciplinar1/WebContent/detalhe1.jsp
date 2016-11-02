@@ -4,12 +4,15 @@
 <title>Encontre 1 Amigo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+<meta name="keywords" content="Fashion Club Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+
+
 <!--// css -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -17,6 +20,22 @@
 <!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<!--flex slider-->
+<script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script>
+	
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+	  });
+	});
+</script>
+
+
+ 
+
 </head>
 <body>
 <div class="header-top-w3layouts">
@@ -79,17 +98,43 @@
 				</div>
 			</div>
 		</div>
-		
-		
-		
-		
-		<!-- Aqui entra o contéudo -->
-		
-		
-		
-		
+<div class="products">	 
+		<div class="container">  
+			<div class="single-page">
+				<div class="single-page-row" id="detail-21">
+					<div class="col-md-6 single-top-left">	
+						<div class="flexslider">
+							<ul class="slides">
+								<li data-thumb="imagens/dog1.jpg">
+									<div class="thumb-image detail_images"> <img src="imagens/dog1.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+								</li>
+								<li data-thumb="imagens/dog2.jpg">
+									 <div class="thumb-image"> <img src="imagens/dog2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+								</li>
+								<li data-thumb="imagens/dog3.jpg">
+								   <div class="thumb-image"> <img src="imagens/dog3.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+								</li> 
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 single-top-right">
+						<h3 class="item_name"> Beethoven</h3>
+						<p>Olá gente, sou um cachorro muito carinhoso e super dócil, fui abandonado e estou a procura de um novo dono </p>
+						<ul>
+							<li>Vira lata</li>
+							<li>3 anos</li>
+							<li>Femea</li>
+							<li>Longo</li>
+							<li>Medio</li>
+						</ul>
+						
+					</div>
+				  
+			</div> 
+				
+			
+		</div>
 	</div>
-</div>
 
 <div class="footer">
 	<div class="container">
