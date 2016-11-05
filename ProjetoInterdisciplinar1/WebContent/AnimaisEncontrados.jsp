@@ -178,7 +178,7 @@
 			<h4>Informações</h4> 
 			<ul>
 				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
-				<li><a href="icons.html">Dicas</a></li>
+				<li><a href=""Dicas.jsp"">Dicas</a></li>
 				<li><a href="QuemSomos.jsp">Quem somos</a></li>
 			</ul>
 		</div>

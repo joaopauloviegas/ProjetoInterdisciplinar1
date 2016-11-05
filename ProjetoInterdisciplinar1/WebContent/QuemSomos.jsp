@@ -34,10 +34,10 @@
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
 						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Encontrados</span></a></li>
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					
 					</ul>
 				</div>
@@ -80,8 +80,16 @@
 			</div>
 		</div>
 		<h1>Quem Somos.</h1>
-		<br/><br/>
-		<h5>O grupo VieCost Software ,foi fundado no ano de 2016, na cidade de Caruaru-PE pelos jovens João Paulo Viegas e Carlos Alberto Costa.</h5>
+		<br/><br/><br/><br/><br/><br/><br/><br/>
+		<h5>O grupo VieCost Software ,foi fundado no ano de 2016, na cidade de Caruaru-PE pelos jovens João Paulo Viegas e Carlos Alberto Costa.
+		Sua principal missão é oferecer qualidade e segurança, no desenvolvimento de sites e aplicativos Android.
+		</h5>
+		<h5>Nosso principal projeto, está sendo o 'Encontre 1 Amigo', destinado para adoção de animais, cruzamento entre pets e e divulgação de animais perdidos. O site estará disponível em breve.
+		Atualmente, contamos com a tecnologia Java e HTML5 para nosso desenvolvimento de Sistemas Web e Aplicativos Android. Trabalhamos com consultoria autônoma de forma que o cliente esteja ambientado com o mundo tecnológico e seus benefícios.</h5>
+	    <br/><br/><br/><br/><br/><br/><br/><br/>
+	    <h4>VieCost Software</h4>
+	    <h5>2016</h5>
+	    <h5>Todos os Direitos Reservados.</h5>
 	</div>
 </div>
 
@@ -102,16 +110,16 @@
 			<h4>Informações</h4> 
 			<ul>
 				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
-				<li><a href="icons.html">Dicas</a></li>
+				<li><a href="Dicas.jsp">Dicas</a></li>
 				<li><a href="QuemSomos.jsp">Quem somos</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="jewellery.html">Adote</a></li>
-				<li><a href="cosmetics.html">Encontre um par</a></li>
-				<li><a href="Shoes.html">Animais Perdidos</a></li>
+				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
+				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
+				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>

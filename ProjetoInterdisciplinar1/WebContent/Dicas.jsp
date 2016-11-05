@@ -34,10 +34,10 @@
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
 						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Encontrados</span></a></li>
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					
 					</ul>
 				</div>
@@ -79,10 +79,8 @@
 				</div>
 			</div>
 		</div>
-		<h1>Fale Conosco</h1>
-		<br/>
-        <h4> Nosso email : encontre1amigo@outlook.com</h4>
-	    <h4> Contato : (81) 9 9836-9824</h4>
+		<h1>Dicas</h1>
+	</div>
 </div>
 
 <div class="footer">
@@ -91,7 +89,7 @@
 		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
-			<li>Pernanbuco.</li>
+			<li>Pernambuco</li>
 			<li><a href="mailto:info@example.com">encontre1amigo@outlook.com</a></li>
 			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -109,9 +107,10 @@
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="jewellery.html">Adote</a></li>
-				<li><a href="cosmetics.html">Encontre um par</a></li>
-				<li><a href="Shoes.html">Animais Perdidos</a></li>
+				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
+				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
+				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
+				<li><a href="AnimaisEncontrados.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
