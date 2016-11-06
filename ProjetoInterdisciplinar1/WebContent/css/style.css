@@ -1,4 +1,7 @@
 @CHARSET "ISO-8859-1";
+h1#logo{
+	font-family:"Aharoni";	
+}
 body {
 	padding: 0;
 	margin: 0;

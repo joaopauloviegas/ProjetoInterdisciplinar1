@@ -33,11 +33,11 @@
 			<nav class="navbar navbar-default">
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
-						<li><a href="index.html" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Encontrados</span></a></li>
+						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote 1 Animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre 1 Par</span></a></li>
+						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					
 					</ul>
 				</div>
@@ -79,6 +79,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
@@ -185,9 +186,9 @@
 		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
-			<li>Pernanbuco.</li>
+			<li>Pernambuco</li>
 			<li><a href="mailto:info@example.com">encontre1amigo@outlook.com</a></li>
-			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="https://www.facebook.com/CarlosAlberto2100"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 		</ul>
@@ -195,17 +196,18 @@
 		<div class="col-md-3 footer-grids fgd2">
 			<h4>Informações</h4> 
 			<ul>
-				<li><a href="contact.html">Fale Conosco</a></li>
+				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
 				<li><a href="icons.html">Dicas</a></li>
-				<li><a href="typography.html">Quem somos</a></li>
+				<li><a href="QuemSomos.jsp">Quem somos</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="jewellery.html">Adote</a></li>
-				<li><a href="cosmetics.html">Encontre um par</a></li>
-				<li><a href="Shoes.html">Animais Perdidos</a></li>
+				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
+				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
+				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
+				<li><a href="AnimaisEncontrados.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
@@ -214,7 +216,11 @@
 			<ul>
 				
 				<li><a href="login.html">Login</a></li>
+<<<<<<< HEAD
 				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
+=======
+				<li><a href="register.html">Se Cadastre</a></li>
+>>>>>>> branch 'master' of https://github.com/joaopauloviegas/ProjetoInterdisciplinar1.git
 			</ul>
 		</div>
 		<div class="clearfix"></div>

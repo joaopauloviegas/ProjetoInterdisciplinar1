@@ -34,10 +34,10 @@
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
 						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
+						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
+						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="index.html" class="hyper"><span>Encontrados</span></a></li>
 					
 					</ul>
 				</div>
@@ -79,86 +79,10 @@
 				</div>
 			</div>
 		</div>
-		
-		<!--iniciando conteudo-->
-		<h1>Adoção</h1>
-		<div class="col-md-8 col-sm-8 women-dresses">
-			<div class="women-set1">
-				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/dog1.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Beethoven</h4>
-					<h5>5 anos</h5>
-					<h5>Vira lata</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/dog2.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Kuki</h4>
-					<h5>2anos</h5>
-					<h5>Vira lata</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/dog3.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Spike</h4>
-					<h5>3anos</h5>
-					<h5>Pitbull</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="women-set2">
-				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/cat1.jpg" alt="" />
-					
-					</div></a>
-					
-					<h4>Mimu</h4>
-					<h5>2anos</h5>
-					<h5>Persa</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/dog4.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Luke</h4>
-					<h5>5 anos</h5>
-					<h5>Pastor Alemão</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="imagens/dog7.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Kobra</h4>
-					<h5>5 anos</h5>
-					<h5>Pastor Alemão</h5>
-					<h5>Adoção</h5>
-				</div>
-		
-		
-		
-   <!-- encerrando conteudo -->
-		
-	</div>
+		<h1>Fale Conosco</h1>
+		<br/>
+        <h4> Nosso email : encontre1amigo@outlook.com</h4>
+	    <h4> Contato : (81) 9 9836-9824</h4>
 </div>
 
 <div class="footer">
@@ -185,10 +109,9 @@
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
-				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
-				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
-				<li><a href="AnimaisEncontrados.jsp">Animais Perdidos</a></li>
+				<li><a href="jewellery.html">Adote</a></li>
+				<li><a href="cosmetics.html">Encontre um par</a></li>
+				<li><a href="Shoes.html">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
@@ -209,4 +132,3 @@
 	
 </body>
 </html>
-
