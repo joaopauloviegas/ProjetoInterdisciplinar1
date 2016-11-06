@@ -34,8 +34,8 @@
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
 						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um Animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um Par</span></a></li>
 						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
 						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					
@@ -178,7 +178,7 @@
 			<h4>Informações</h4> 
 			<ul>
 				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
-				<li><a href="icons.html">Dicas</a></li>
+				<li><a href=""Dicas.jsp"">Dicas</a></li>
 				<li><a href="QuemSomos.jsp">Quem somos</a></li>
 			</ul>
 		</div>
