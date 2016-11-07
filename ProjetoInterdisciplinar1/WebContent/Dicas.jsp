@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Encontre 1 Amigo</title>
+<title>Pet Amigo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -22,7 +22,7 @@
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.html"><h1>Encontre 1 Amigo</h1></a>
+			<a href="index.html"><h1>Pet Amigo</h1></a>
 		</div>
 		
 	</div>
@@ -58,16 +58,14 @@
 						<div class="ecommerce_dres-type">
 							<form action="#" method="post">
 						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
 							<input  type="text" name="Email" required="" placeholder="Email">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" name="Password" required="" placeholder="Password">
+							<input  type="password" name="Password" required="" placeholder="Senha">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+						<input type="submit" value="ENTRAR">
 					</form>
 						</div>
 					</div>
@@ -86,11 +84,11 @@
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
+		<a href="index.html"><h3>Pet Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
 			<li>Pernambuco</li>
-			<li><a href="mailto:info@example.com">encontre1amigo@outlook.com</a></li>
+			<li>petamigo@outlook.com</li>
 			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -118,16 +116,14 @@
 			<h4>Minha Conta</h4> 
 			<ul>
 				
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Se cadastre</a></li>
+				<li><a href="Login.jsp">Login</a></li>
+				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
-		<p class="copy-right">© 2016 Encontre 1 Amigo . Todos os direitos reservados | Design por VieCost Software</p>
+		<p class="copy-right">© 2016 Pet Amigo . Todos os direitos reservados | Design por VieCost Software</p>
 	</div>
 </div>
-	<!-- cart-js -->
-	  
-	
+		
 </body>
 </html>

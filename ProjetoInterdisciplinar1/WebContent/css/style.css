@@ -3153,3 +3153,29 @@ p.w3-agile{
 	}
 }
 /*-- //responsive--*/
+
+form{
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+}
+
+input{
+	
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	margin: 5px;
+}
+
+legend{
+	color:#000000;
+	font-family: sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+fieldset{
+	border-color:#000000;
+	margin: 20px;
+}

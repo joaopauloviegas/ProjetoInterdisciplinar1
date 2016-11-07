@@ -8,6 +8,7 @@ public class Animal {
 	private String sexo;
 	private String pelagem;
 	private String porte;
+	
 	public String getNome() {
 		return nome;
 	}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Encontre 1 Amigo</title>
+<title>Pet Amigo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Fashion Club Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -41,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.html"><h1>Encontre 1 Amigo</h1></a>
+			<a href="index.html"><h1>Pet Amigo</h1></a>
 		</div>
 		
 	</div>
@@ -52,11 +52,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<nav class="navbar navbar-default">
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
-						<li><a href="index.html" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Encontrados</span></a></li>
+						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					
 					</ul>
 				</div>
@@ -77,16 +77,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="ecommerce_dres-type">
 							<form action="#" method="post">
 						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
+							
 							<input  type="text" name="Email" required="" placeholder="Email">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" name="Password" required="" placeholder="Password">
+							
+							<input  type="password" name="Password" required="" placeholder="Senha">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+						<input type="submit" value="ENTRAR">
 					</form>
 						</div>
 					</div>
@@ -118,15 +118,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="col-md-6 single-top-right">
-						<h3 class="item_name"> Beethoven</h3>
-						<p>Olá gente, sou um cachorro muito carinhoso e super dócil, fui abandonado e estou a procura de um novo dono </p>
-						<ul>
-							<li>Vira lata</li>
-							<li>3 anos</li>
-							<li>Femea</li>
-							<li>Longo</li>
-							<li>Medio</li>
-						</ul>
+							<div>
+								<form method = "post" action ="Servelet">
+								<fieldset><legend>Detalhes</legend>
+									<label for="lname"><b>NOME: Beethoven</b></label>
+									<br><label for="lname"><b>RAÇA: VIRA LATA</b></label>
+									<br><label for="lname"><b>IDADE: 3 ANOS</b></label>
+									<br><label for="lname"><b>SEXO: MACHO</b></label>
+								    <br><label for="lname"><b>PELAGEM: GRANDE</b></label>
+									<br><label for="lname"><b>PORTE: MEDIO</b></label>
+								</fieldset>	
+								</form>
+						   </div>
 						
 					</div>
 				  
@@ -139,11 +142,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
+		<a href="index.html"><h3>Pet Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
 			<li>Pernanbuco.</li>
-			<li><a href="mailto:info@example.com">encontre1amigo@outlook.com</a></li>
+			<li>encontre1amigo@outlook.com</li>
 			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -152,17 +155,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-3 footer-grids fgd2">
 			<h4>Informações</h4> 
 			<ul>
-				<li><a href="contact.html">Fale Conosco</a></li>
-				<li><a href="icons.html">Dicas</a></li>
-				<li><a href="typography.html">Quem somos</a></li>
+				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
+				<li><a href="Dicas.jsp">Dicas</a></li>
+				<li><a href="Quem Somos.jsp">Quem somos</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="jewellery.html">Adote</a></li>
-				<li><a href="cosmetics.html">Encontre um par</a></li>
-				<li><a href="Shoes.html">Animais Perdidos</a></li>
+				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
+				<li><a href="EncontreUmpar.jsp">Encontre um par</a></li>
+				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
@@ -170,15 +173,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h4>Minha Conta</h4> 
 			<ul>
 				
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Se cadastre</a></li>
+				<li><a href="login.jsp">Login</a></li>
+				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
-		<p class="copy-right">© 2016 Encontre 1 Amigo . Todos os direitos reservados | Design por VieCost Software</p>
+		<p class="copy-right">© 2016 Pet Amigo . Todos os direitos reservados | Design por VieCost Software</p>
 	</div>
 </div>
-	<!-- cart-js -->
+	
 	  
 	
 </body>
