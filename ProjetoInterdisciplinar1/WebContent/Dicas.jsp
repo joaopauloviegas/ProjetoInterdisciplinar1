@@ -78,6 +78,13 @@
 			</div>
 		</div>
 		<h1>Dicas</h1>
+		<br/><br/>
+		<h4>Dica 1 : Dicas de Cuidados com seu Animal</h4>
+		<h5>Conheça algumas dicas para você conviver melhor com o seu animal de estimação, clicando no link abaixo:
+		http://www.protecaoanimal.curitiba.pr.gov.br/Conteudo/Dicas.aspx</h5>
+	    <br/><br/>
+	    <h4>Dica 2 : Dicas sobre Saúde Animal</h4>
+	    <h5>Acesse o link : https://clubedosanimais.com.br/dicas-de-saude-animal/</h5>
 	</div>
 </div>
 

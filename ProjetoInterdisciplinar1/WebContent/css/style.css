@@ -3179,3 +3179,7 @@ fieldset{
 	border-color:#000000;
 	margin: 20px;
 }
+
+form{
+	width: 100% !important;
+}

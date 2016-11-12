@@ -92,6 +92,7 @@
 					<h5>5 anos</h5>
 					<h5>Vira lata</h5>
 					<h5>Encontrado</h5>
+					<h5>96785888</h5>
 				</div>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
@@ -114,6 +115,8 @@
 					<h5>3anos</h5>
 					<h5>Pitbull</h5>
 					<h5>Encontrado</h5>
+					<h5>98989898</h5>
+
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -124,10 +127,11 @@
 					
 					</div></a>
 					
-					<h4>Mimu</h4>
+					<h4>Sem nome</h4>
 					<h5>2anos</h5>
 					<h5>Persa</h5>
 					<h5>Encontrado</h5>
+					<h5>fulanin@hotm.com</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
@@ -135,10 +139,11 @@
 						
 					</div></a>
 					
-					<h4>Luke</h4>
+					<h4>Sem nome</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
 					<h5>Encontrado</h5>
+					<h5>67767676</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
@@ -146,10 +151,11 @@
 						
 					</div></a>
 					
-					<h4>Kobra</h4>
+					<h4>Sem nome</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
 					<h5>Encontrado</h5>
+					<h5>98983838</h5>
 				</div>
 		
 	</div>
