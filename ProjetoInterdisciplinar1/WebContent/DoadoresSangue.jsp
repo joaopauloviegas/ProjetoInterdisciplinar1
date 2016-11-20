@@ -34,12 +34,12 @@
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
 						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um Animal</span></a></li>
+						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um Par</span></a></li>
 						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
 						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
-					    <li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>
-				</ul>
+                        <li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>					
+					</ul>
 				</div>
 			</nav>
 		</div>
@@ -65,7 +65,7 @@
 							<input  type="password" name="Password" required="" placeholder="Senha">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+						<input type="submit" value="ENTRAR">
 					</form>
 						</div>
 					</div>
@@ -78,12 +78,12 @@
 			</div>
 		</div>
 		
-		<!--iniciando conteudo-->
-		<h1>Animais Encontrados</h1>
+		
+		<h1>Doadores de Sangue</h1>
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/dog1.jpg" alt="" />
 						
 					</div></a>
@@ -91,11 +91,10 @@
 					<h4>Beethoven</h4>
 					<h5>5 anos</h5>
 					<h5>Vira lata</h5>
-					<h5>Encontrado</h5>
-					<h5>96785888</h5>
+					<h5>Doador de Sangue</h5>
 				</div>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/dog2.jpg" alt="" />
 						
 					</div></a>
@@ -103,10 +102,10 @@
 					<h4>Kuki</h4>
 					<h5>2anos</h5>
 					<h5>Vira lata</h5>
-					<h5>Encontrado</h5>
+					<h5>Doador de Sangue</h5>
 				</div>
 				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/dog3.jpg" alt="" />
 						
 					</div></a>
@@ -114,48 +113,43 @@
 					<h4>Spike</h4>
 					<h5>3anos</h5>
 					<h5>Pitbull</h5>
-					<h5>Encontrado</h5>
-					<h5>98989898</h5>
-
+					<h5>Adoção</h5>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			<div class="women-set2">
 				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/cat1.jpg" alt="" />
 					
 					</div></a>
 					
-					<h4>Sem nome</h4>
+					<h4>Mimu</h4>
 					<h5>2anos</h5>
 					<h5>Persa</h5>
-					<h5>Encontrado</h5>
-					<h5>fulanin@hotm.com</h5>
+					<h5>Doador de Sangue</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/dog4.jpg" alt="" />
 						
 					</div></a>
 					
-					<h4>Sem nome</h4>
+					<h4>Luke</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
-					<h5>Encontrado</h5>
-					<h5>67767676</h5>
+					<h5>Doador de Sangue</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
+					<a href="detalhes1.jsp"><div class="product-img">
 						<img src="imagens/dog7.jpg" alt="" />
 						
 					</div></a>
 					
-					<h4>Sem nome</h4>
+					<h4>Kobra</h4>
 					<h5>5 anos</h5>
 					<h5>Pastor Alemão</h5>
-					<h5>Encontrado</h5>
-					<h5>98983838</h5>
+					<h5>Doador de Sangue</h5>
 				</div>
 		
 	</div>
@@ -164,14 +158,14 @@
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
+		<a href="index.html"><h3>Pet Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
-			<li>Pernanbuco.</li>
+			<li>Pernambuco.</li>
 			<li>petamigo@outlook.com</li>
-			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 		</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd2">
@@ -204,6 +198,8 @@
 		<p class="copy-right">© 2016 Pet Amigo . Todos os direitos reservados | Design por VieCost Software</p>
 	</div>
 </div>
+ 
 	
 </body>
 </html>
+
