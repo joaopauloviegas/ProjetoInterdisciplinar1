@@ -38,7 +38,7 @@
 						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
 						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
 						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
-					
+					    <li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>
 					</ul>
 				</div>
 			</nav>
