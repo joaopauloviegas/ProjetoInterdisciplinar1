@@ -8,35 +8,41 @@ import java.util.ArrayList;
 
 import com.viecost.entidades.Usuario;
 
+import com.viecost.util.Conexao;
+
 public class RepositorioUsuario implements IRepositorioUsuario {
 
-	private Connection con = null;
-	private int id = 0;
+	Connection con = Conexao.getConnection();
 	
-	public void conecta(){
-		String url = "jdbc:oracle:thin:@localhost:1521:xe";
-		try{
-			 con = DriverManager.getConnection(url,"system","joao123123");
-			 
-		}catch(SQLException sql){
-			System.out.println("Erro na conexão" + sql);
-		}//fim do catch
-	}//fim do conecta
+	/*public void Salvar(Usuario usuario){
+		if (usuario.getId() != null && usuario.getId() != 0){
+			atualizarUsuario(usuario);
+		} else {
+			cadastrarUsuario(usuario);
+		}
+	}*/
 	
-	public void desconecta(){
-		try{
-			con.close();
-		}catch(SQLException sql){
-			System.out.println("erro ao desconectar" +sql);
-		}//fim do catch
-	}//fim do desconecta
 	
 	
 	@Override
 	public void cadastrarUsuario(Usuario usuario) {
-		System.out.println("estou no repositorio BD");
+		System.out.println("repositorio");
 		
+		String sql = "INSERT INTO usuario (nome, email, senha, cidade, sexo, telefone) VALUES (?, ?, ?, ?, ?, ?)";
 		
+		try {
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setString(1, usuario.getNome());
+			ps.setString(2, usuario.getEmail());
+			ps.setString(3, usuario.getSenha());
+			ps.setString(4, usuario.getCidade());
+			ps.setString(5, usuario.getSexo());
+			ps.setString(6, usuario.getFone());
+			ps.execute();
+			ps.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override

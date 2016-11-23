@@ -18,6 +18,7 @@ public class ControladorUsuario {
 	
 	//METODO CADASTRAR USUARIO
 	public void cadastrarUsuario(Usuario usuario){
+		System.out.println("controlador");
 		this.repositorioUsuario.cadastrarUsuario(usuario);
 	}
 	

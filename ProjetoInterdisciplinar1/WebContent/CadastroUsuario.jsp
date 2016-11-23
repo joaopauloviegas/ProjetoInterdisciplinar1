@@ -52,40 +52,40 @@
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Cadastre-se</h3>
-					<form action="#" method="post">
+					<form action="ServletUsuario" method="post">
 						<div class="key">
 							
-							<input  type="text"  name="Username" required=""  placeholder="Nome">
+							<input  type="text"  name="nome" required=""  placeholder="Nome">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="text"  name="Email"  required=""  placeholder="Email">
+							<input  type="text"  name="email"  required=""  placeholder="Email">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="password"  name="Password"  required="" placeholder="Senha">
+							<input  type="password"  name="senha"  required="" placeholder="Senha">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="password" name="Confirm Password" required="" placeholder="Confirme senha">
+							<input  type="password" name="confirma senha" required="" placeholder="Confirme senha">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="password" name="Confirm Password" required="" placeholder="Cidade">
+							<input  type="text" name="cidade" required="" placeholder="Cidade">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="password" name="Confirm Password" required="" placeholder="Sexo">
+							<input  type="text" name="sexo" required="" placeholder="Sexo">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="password" name="Confirm Password" required="" placeholder="Telefone">
+							<input  type="text" name="telefone" required="" placeholder="Telefone">
 							<div class="clearfix"></div>
 						</div>
 						<input type="submit" value="Cadastrar">

@@ -2,25 +2,40 @@ package com.viecost.entidades;
 
 public class Usuario {
 
+	private int id;
 	private String nome;
-	private String cpf;
 	private String email;
 	private String senha;
 	private String cidade;
 	private String sexo;
 	private String fone;
 	
+	public Usuario() {
+		
+	}
+	
+	public Usuario(String nome, String email, String senha, String cidade, String sexo, String fone){
+		this.nome = nome;
+		this.email = email;
+		this.senha = senha;
+		this.cidade = cidade;
+		this.sexo = sexo;
+		this.fone = fone;
+	}
+	
+
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	public String getCpf() {
-		return cpf;
-	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
 	}
 	public String getEmail() {
 		return email;
