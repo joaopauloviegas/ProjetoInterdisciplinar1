@@ -22,7 +22,7 @@
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.html"><h1>Pet Amigo</h1></a>
+			<a href="index.html"><img src="imagens/pata.jpg" alt=" " /><h1>Pet Amigo</h1></a>
 		</div>
 		
 	</div>
@@ -37,7 +37,6 @@
 						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
 						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um par</span></a></li>
 						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
 					    <li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>
 					</ul>
 				</div>

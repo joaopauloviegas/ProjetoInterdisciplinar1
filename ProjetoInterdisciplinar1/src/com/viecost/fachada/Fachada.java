@@ -4,6 +4,8 @@ import java.sql.SQLException;
 
 import com.viecost.controladores.ControladorUsuario;
 import com.viecost.entidades.Usuario;
+import com.viecost.util.CampoObrigatorioException;
+import com.viecost.util.UsuarioJaCadastradoException;
 
 public class Fachada {
 	
@@ -24,10 +26,11 @@ public class Fachada {
     }
     
   //METODO CADASTRAR PARA USUARIO
-  	public void cadastarUsuario(Usuario usuario) throws IllegalArgumentException, SQLException{
-  		System.out.println("Estou na fachada");
+  	public void cadastarUsuario(Usuario usuario) throws IllegalArgumentException, 
+  														SQLException, 
+  														UsuarioJaCadastradoException, 
+  														CampoObrigatorioException{
   		controladorUsuario.cadastrarUsuario(usuario);
-  		
-  	}
+  	}// fim do metodo cadastrar usuario
 
 }// fim da classe fachada

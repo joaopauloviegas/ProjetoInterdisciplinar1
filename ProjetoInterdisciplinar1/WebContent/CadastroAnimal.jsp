@@ -25,7 +25,6 @@
 			<a href="index.html"><img src="imagens/pata.jpg" alt=" " /><h1>Pet Amigo</h1></a>
 		</div>
 		
-	</div>
 </div>
 <div class="header-bottom-w3ls">
 	<div class="container">
@@ -46,122 +45,77 @@
 		
 	</div>
 </div>
-<div class="sub-banner my-banner3">
-</div>
-<div class="content">
-	<div class="container">
-		<div class="col-md-4 w3ls_dresses_grid_left">
-			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Login</h3>
-					<div class="w3ls_dresses_grid_left_grid_sub">
-						<div class="ecommerce_dres-type">
-							<form action="#" method="post">
+
+	<div class="login">
+	
+		<div class="main-agileits">
+				<div class="form-w3agile">
+					<h3>Cadastro do Animal</h3>
+					<form action="ServletUsuario" method="post">
 						<div class="key">
-							<input  type="text" name="Email" required="" placeholder="Email">
+							
+							<input  type="text"  name="nome" required=""  placeholder="Nome">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
-							<input  type="password" name="Password" required="" placeholder="Senha">
+							
+							<input  type="text"  name="raca"  required=""  placeholder="Raca">
 							<div class="clearfix"></div>
 						</div>
-						<input type="submit" value="Login">
+						<div class="key">
+							
+							<input  type="text"  name="idade"  required="" placeholder="Idade">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							
+							<%-- <input  type="text" name="sexo" required="" placeholder="Sexo"> --%>
+							<h6>SEXO</h6>
+							<input type="radio" name="sexo" value="macho"/> Macho
+							<input type="radio" name="sexo" value="femea"/> Femea
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							
+							<%-- <input  type="text" name="pelagem" required="" placeholder="Pelagem"> --%>
+							<h6>PELAGEM</h6>
+							<input type="radio" name="pelagem" value="curto"/> Curto <br />
+							<input type="radio" name="pelagem" value="longo"/> Longo <br />
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							
+							<%-- <input  type="text" name="porte" required="" placeholder="Porte"> --%>
+							<h6>PORTE</h6>
+							<input type="radio" name="porte" value="pequeno"/> Pequeno <br />
+							<input type="radio" name="porte" value="medio"/> Medio <br />
+							<input type="radio" name="porte" value="grande"/> Grande <br />
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							
+							<%-- <input  type="text" name="especificacao" required="" placeholder="Especificação">--%>
+							<h6>Especificação do cadastro</h6>
+							<input type="radio" name="especificacao" value="adocao"/> Adoção <br />
+							<input type="radio" name="especificacao" value="perdido"/> Perdido <br />
+							<input type="radio" name="especificacao" value="pretendente"/> Pretendente <br />
+							<input type="radio" name="especificacao" value="doarSangue"/> Doar Sangue
+							<div class="clearfix"></div>
+						</div>
+						<input type="submit" value="Cadastrar">
 					</form>
-						</div>
-					</div>
-			</div>
-			<div class="w3ls_dresses_grid_left_grid">
-				<div class="dresses_img_hover">
-					<img src="imagens/anuncieaqui.png" alt=" " class="img-responsive" />
-					
 				</div>
 			</div>
 		</div>
-		
-		<h1>Animais Perdidos</h1>
-		<div class="col-md-8 col-sm-8 women-dresses">
-			<div class="women-set1">
-				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog1.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Beethoven</h4>
-					<h5>5 anos</h5>
-					<h5>Vira lata</h5>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog2.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Kuki</h4>
-					<h5>2anos</h5>
-					<h5>Vira lata</h5>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog3.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Spike</h4>
-					<h5>3anos</h5>
-					<h5>Pitbull</h5>
-					<h5>Perdido</h5>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="women-set2">
-				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/cat1.jpg" alt="" />
-					
-					</div></a>
-					
-					<h4>Mimu</h4>
-					<h5>2anos</h5>
-					<h5>Persa</h5>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog4.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Luke</h4>
-					<h5>5 anos</h5>
-					<h5>Pastor Alemão</h5>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog7.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Kobra</h4>
-					<h5>5 anos</h5>
-					<h5>Pastor Alemão</h5>
-					<h5>Perdido</h5>
-				</div>
-		
-		
-	</div>
-</div>
-
+	
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.jsp"><h3>Pet Amigo</h3></a>
+		<a href="index.html"><h3>Pet Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
 			<li>Pernanbuco.</li>
-			<li>petamigo@outlook.com</li>
+			<li><a href="mailto:info@example.com">petamigo@outlook.com</a></li>
 			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -181,7 +135,6 @@
 				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
 				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
 				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
-				<li><a href="AnimaisEncontrados.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
@@ -189,14 +142,14 @@
 			<h4>Minha Conta</h4> 
 			<ul>
 				
-				<li><a href="login.jsp">Login</a></li>
+				<li><a href="login.html">Login</a></li>
 				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
-		<p class="copy-right"> 2016 Pet Amigo . Todos os direitos reservados | Design por VieCost Software</p>
+		<p class="copy-right">© 2016 Pet Amigo . Todos os direitos reservados | Design por VieCost Software</p>
 	</div>
-</div>	  
-	
+</div>
+	  
 </body>
 </html>

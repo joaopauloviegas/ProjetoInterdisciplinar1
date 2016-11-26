@@ -22,7 +22,7 @@
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.html"><h1>Pet Amigo</h1></a>
+			<a href="index.html"><img src="imagens/pata.jpg" alt=" " /><h1>Pet Amigo</h1></a>
 		</div>
 		
 	</div>
@@ -37,7 +37,6 @@
 						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um Animal</span></a></li>
 						<li><a href="EncontreUmPar.jsp" class="hyper"><span> Encontre um Par</span></a></li>
 						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
-						<li><a href="AnimaisEncontrados.jsp" class="hyper"><span>Encontrados</span></a></li>
                         <li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>					
 					</ul>
 				</div>
@@ -53,22 +52,12 @@
 	<div class="container">
 		<div class="col-md-4 w3ls_dresses_grid_left">
 			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Login</h3>
-					<div class="w3ls_dresses_grid_left_grid_sub">
-						<div class="ecommerce_dres-type">
-							<form action="#" method="post">
-						<div class="key">
-							<input  type="text" name="Email" required="" placeholder="Email">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<input  type="password" name="Password" required="" placeholder="Senha">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="ENTRAR">
-					</form>
-						</div>
-					</div>
+				<div class="w3ls_dresses_grid_left_grid">
+				<div class="dresses_img_hover">
+					<img src="imagens/anuncieaqui.png" alt=" " class="img-responsive" />
+					
+				</div>
+			</div>
 			</div>
 			<div class="w3ls_dresses_grid_left_grid">
 				<div class="dresses_img_hover">

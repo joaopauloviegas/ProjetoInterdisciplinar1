@@ -22,7 +22,7 @@
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.html"><h1>Pet Amigo</h1></a>
+			<a href="index.html"><img src="imagens/pata.jpg" alt=" " /><h1>Pet Amigo</h1></a>
 		</div>
 		
 </div>

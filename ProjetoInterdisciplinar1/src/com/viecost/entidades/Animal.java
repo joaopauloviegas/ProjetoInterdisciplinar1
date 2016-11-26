@@ -2,6 +2,7 @@ package com.viecost.entidades;
 
 public class Animal {
 
+	private int id;
 	private String nome;
 	private String raca;
 	private int idade;
@@ -9,6 +10,13 @@ public class Animal {
 	private String pelagem;
 	private String porte;
 	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getNome() {
 		return nome;
 	}

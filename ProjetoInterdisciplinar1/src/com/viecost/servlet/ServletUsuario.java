@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.viecost.entidades.Usuario;
 import com.viecost.fachada.Fachada;
 import com.viecost.repositorio.RepositorioUsuario;
+import com.viecost.util.CampoObrigatorioException;
+import com.viecost.util.UsuarioJaCadastradoException;
 
 @WebServlet("/ServletUsuario")
 public class ServletUsuario extends HttpServlet {
@@ -52,7 +54,13 @@ public class ServletUsuario extends HttpServlet {
 		
 		Fachada f = Fachada.getInstance();
 		try {
-			f.cadastarUsuario(usuario);
+			try {
+				f.cadastarUsuario(usuario);
+			} catch (UsuarioJaCadastradoException e) {
+				e.printStackTrace();
+			} catch (CampoObrigatorioException e) {
+				e.printStackTrace();
+			}
 		} catch (IllegalArgumentException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
