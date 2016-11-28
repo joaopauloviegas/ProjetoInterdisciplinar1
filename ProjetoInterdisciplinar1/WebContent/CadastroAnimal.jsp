@@ -102,6 +102,11 @@
 							<input type="radio" name="especificacao" value="doarSangue"/> Doar Sangue
 							<div class="clearfix"></div>
 						</div>
+						
+							<form enctype="multipart/form-data" action="salvar.php" method="post">
+    							Imagem: <input name="userfile" type="file" />
+    							<input type="submit" value="Enviar" />
+							</form>
 						<input type="submit" value="Cadastrar">
 					</form>
 				</div>
