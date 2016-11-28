@@ -11,7 +11,7 @@ import com.viecost.util.UsuarioJaCadastradoException;
 
 public class ControladorUsuario {
 	
-	private IRepositorioUsuario repositorioUsuario;
+	private RepositorioUsuario repositorioUsuario;
 	
 	
 	//CONTROLADOR
@@ -27,7 +27,6 @@ public class ControladorUsuario {
 														 IllegalArgumentException,
 														 SQLException{
 		
-		
 		if(usuario == null) throw new IllegalArgumentException("Usuario Invalido");
 		if(usuario.getNome().equals("")) throw new CampoObrigatorioException("nome");
 		if(usuario.getEmail().equals("")) throw new CampoObrigatorioException("email");
@@ -41,13 +40,13 @@ public class ControladorUsuario {
 	}
 	
 	//METODO REMOVER 
-	public boolean removerUsuario(String cpf){
-		return this.repositorioUsuario.removerUsuario(cpf);
+	public boolean removerUsuario(int id){
+		return this.repositorioUsuario.removerUsuario(id);
 	}
 	
 	//METODO PROCURAR 
-	public Usuario procurarUsuario(String cpf){
-		return this.repositorioUsuario.procurarUsuario(cpf);
+	public Usuario procurarUsuario(int id){
+		return this.repositorioUsuario.procurarUsuario(id);
 	}
 	
 	//METODO LISTAR

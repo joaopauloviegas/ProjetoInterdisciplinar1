@@ -10,21 +10,23 @@ import com.viecost.entidades.Usuario;
 
 import com.viecost.util.Conexao;
 
-public class RepositorioUsuario implements IRepositorioUsuario {
+public class RepositorioUsuario {
 
 	Connection con = Conexao.getConnection();
 	
-	/*public void Salvar(Usuario usuario){
-		if (usuario.getId() != null && usuario.getId() != 0){
+	public void Salvar(Usuario usuario){
+		if (usuario.getId() != 0) {
 			atualizarUsuario(usuario);
 		} else {
 			cadastrarUsuario(usuario);
 		}
-	}*/
+		//if (usuario.getId() != null && usuario.getId() != 0){
+			//atualizarUsuario(usuario);
+		//} else {
+		//	cadastrarUsuario(usuario);
+		//}
+	}
 	
-	
-	
-	@Override
 	public void cadastrarUsuario(Usuario usuario) {
 		System.out.println("repositorio");
 		
@@ -45,27 +47,23 @@ public class RepositorioUsuario implements IRepositorioUsuario {
 		}
 	}
 
-	@Override
 	public void atualizarUsuario(Usuario usuario) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
-	@Override
-	public boolean removerUsuario(String cpf) {
-		// TODO Auto-generated method stub
+	public boolean removerUsuario(int id) {
+		
 		return false;
 	}
 
-	@Override
-	public Usuario procurarUsuario(String cpf) {
-		// TODO Auto-generated method stub
+	public Usuario procurarUsuario(int id) {
+		
 		return null;
 	}
 
-	@Override
 	public ArrayList<Usuario> listarUsuario() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 

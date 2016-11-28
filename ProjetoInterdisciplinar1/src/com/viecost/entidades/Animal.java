@@ -9,8 +9,15 @@ public class Animal {
 	private String sexo;
 	private String pelagem;
 	private String porte;
+	private String especificacao;
 	
 	
+	public String getEspecificacao() {
+		return especificacao;
+	}
+	public void setEspecificacao(String especificacao) {
+		this.especificacao = especificacao;
+	}
 	public int getId() {
 		return id;
 	}

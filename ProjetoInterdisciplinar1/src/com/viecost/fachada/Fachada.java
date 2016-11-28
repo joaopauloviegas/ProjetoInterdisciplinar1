@@ -1,8 +1,11 @@
 package com.viecost.fachada;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 
+import com.viecost.controladores.ControladorAnimal;
 import com.viecost.controladores.ControladorUsuario;
+import com.viecost.entidades.Animal;
 import com.viecost.entidades.Usuario;
 import com.viecost.util.CampoObrigatorioException;
 import com.viecost.util.UsuarioJaCadastradoException;
@@ -12,10 +15,12 @@ public class Fachada {
 	public static Fachada instance;
 	// aqui em baixo cria os controladores
 	private ControladorUsuario controladorUsuario;
+	private ControladorAnimal controladorAnimal;
 	
 	public Fachada(){
 		//instancia dos controladores 
 		this.controladorUsuario = new ControladorUsuario();
+		this.controladorAnimal = new ControladorAnimal();
 	}
 	
     public static Fachada getInstance(){
@@ -32,5 +37,23 @@ public class Fachada {
   														CampoObrigatorioException{
   		controladorUsuario.cadastrarUsuario(usuario);
   	}// fim do metodo cadastrar usuario
+  	
+  	public void removerUsuario(int id){
+  		controladorUsuario.removerUsuario(id);
+	}
+  	
+  	public Usuario procurarUsuario(int id) {
+		return controladorUsuario.procurarUsuario(id);
+	}
 
+  //METODO LISTAR PARA CARRO
+  	public ArrayList<Usuario> listarUsuario(){
+  		return controladorUsuario.listarUsuario();
+  		
+  	}
+  	
+  	public ArrayList<Animal> listarAnimal(){
+  		return controladorAnimal.listarAnimal();
+  		
+  	}
 }// fim da classe fachada

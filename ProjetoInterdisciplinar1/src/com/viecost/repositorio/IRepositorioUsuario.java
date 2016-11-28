@@ -8,7 +8,7 @@ public interface IRepositorioUsuario {
 	
 	public void cadastrarUsuario(Usuario usuario);
 	public void atualizarUsuario(Usuario usuario);
-	public boolean removerUsuario(String cpf);
-	public Usuario procurarUsuario(String cpf);
+	public boolean removerUsuario(int id);
+	public Usuario procurarUsuario(int id);
 	public ArrayList<Usuario> listarUsuario();
 }

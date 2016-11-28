@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
+<%@page import="com.viecost.entidades.Animal"%>
+<%@page import="com.viecost.fachada.Fachada"%>
+<%@page import="java.util.ArrayList"%>
 <html lang="en">
 <head>
 <title>Pet Amigo</title>
@@ -70,17 +74,27 @@
 		
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
+				<%
+				Fachada fachada = Fachada.getInstance();
+				ArrayList<Animal> listar = fachada.listarAnimal(); 
+				 for(Animal animais : listar){
+					 
+				%>
+				
+				
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
 						<img src="imagens/dog1.jpg" alt="" />
 						
 					</div></a>
 					
-					<h4>Beethoven</h4>
-					<h5>5 anos</h5>
-					<h5>Vira lata</h5>
+					<h4><%=animais.getNome() %></h4>
+					<h5><%=animais.getIdade() %></h5>
+					<h5><%=animais.getRaca() %></h5>
 					<h5>Adoção</h5>
 				</div>
+				
+				<% } %>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
 						<img src="imagens/dog2.jpg" alt="" />
