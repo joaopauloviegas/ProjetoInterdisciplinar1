@@ -51,7 +51,7 @@
 		<div class="main-agileits">
 				<div class="form-w3agile">
 					<h3>Cadastro do Animal</h3>
-					<form action="ServletUsuario" method="post">
+					<form action="ServletAnimal" method="post">
 						<div class="key">
 							<input  type="hidden"  name="id">
 							<input  type="text"  name="nome" required placeholder="Nome">

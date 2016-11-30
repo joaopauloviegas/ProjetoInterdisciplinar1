@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<%@page import="com.viecost.repositorio.RepositorioAnimal"%>
 <%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
 <%@page import="com.viecost.entidades.Animal"%>
 <%@page import="com.viecost.fachada.Fachada"%>
-<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
 <html lang="en">
 <head>
 <title>Pet Amigo</title>
@@ -75,8 +76,9 @@
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
 				<%
-				Fachada fachada = Fachada.getInstance();
-				ArrayList<Animal> listar = fachada.listarAnimal(); 
+				//Fachada fachada = Fachada.getInstance();
+				RepositorioAnimal ra = new RepositorioAnimal();
+				List<Animal> listar = ra.listarAnimal(); 
 				 for(Animal animais : listar){
 					 
 				%>
