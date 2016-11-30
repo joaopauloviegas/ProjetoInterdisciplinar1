@@ -91,11 +91,12 @@
 					<h4><%=animais.getNome() %></h4>
 					<h5><%=animais.getIdade() %></h5>
 					<h5><%=animais.getRaca() %></h5>
-					<h5>Adoção</h5>
+					<h5><%=animais.getEspecificacao() %></h5>
 				</div>
 				
 				<% } %>
-				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
+				
+				<%-- <div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
 					<a href="detalhe1.jsp"><div class="product-img">
 						<img src="imagens/dog2.jpg" alt="" />
 						
@@ -176,7 +177,7 @@
 					<h4>Scob</h4>
 					<h5>Procurando pretendente</h5>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clearfix"></div> --%>
 			</div>
 		</div>
 	</div>

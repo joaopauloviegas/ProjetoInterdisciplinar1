@@ -1,7 +1,7 @@
 package com.viecost.fachada;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.util.List;
 
 import com.viecost.controladores.ControladorAnimal;
 import com.viecost.controladores.ControladorUsuario;
@@ -38,8 +38,8 @@ public class Fachada {
   		controladorUsuario.cadastrarUsuario(usuario);
   	}// fim do metodo cadastrar usuario
   	
-  	public void removerUsuario(int id){
-  		controladorUsuario.removerUsuario(id);
+  	public void removerUsuario(Usuario usuario){
+  		controladorUsuario.removerUsuario(usuario);
 	}
   	
   	public Usuario procurarUsuario(int id) {
@@ -47,13 +47,11 @@ public class Fachada {
 	}
 
   //METODO LISTAR PARA CARRO
-  	public ArrayList<Usuario> listarUsuario(){
+  	public List<Usuario> listarUsuario(){
   		return controladorUsuario.listarUsuario();
-  		
   	}
   	
-  	public ArrayList<Animal> listarAnimal(){
+  	public List<Animal> listarAnimal(){
   		return controladorAnimal.listarAnimal();
-  		
   	}
 }// fim da classe fachada

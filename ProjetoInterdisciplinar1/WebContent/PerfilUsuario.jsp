@@ -53,24 +53,12 @@
 	<div class="container">
 		<div class="col-md-4 w3ls_dresses_grid_left">
 			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Login</h3>
-					<div class="w3ls_dresses_grid_left_grid_sub">
-						<div class="ecommerce_dres-type">
-							<form action="#" method="post">
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" name="Email" required="" placeholder="Email">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" name="Password" required="" placeholder="Password">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="Login">
-					</form>
-						</div>
-					</div>
+				<div class="w3ls_dresses_grid_left_grid">
+				<div class="dresses_img_hover">
+					<img src="imagens/anuncieaqui.png" alt=" " class="img-responsive" />
+					
+				</div>
+			</div>
 			</div>
 			<div class="w3ls_dresses_grid_left_grid">
 				<div class="dresses_img_hover">
@@ -82,8 +70,34 @@
 		
 		
 		
-		
-		<!-- Aqui entra o contéudo -->
+		<div>
+		<form method = "post" action ="Servelet">
+		<fieldset><legend>PERFIL</legend>
+			<label for="lname"><b>NOME:</b></label>
+			<label for="lname"><b>João Paulo</b></label>
+			<%--<input type="text" required="required" id="lname" size="40" name="nome" placeholder="Nome do Veiculo">--%>
+			
+			<br><label for="lname"><b>EMAIL:</b></label>
+			<label for="lname"><b>JoãoPaulo@hotmail.com</b></label>
+			<%--<input type="number" required="required" id="lname" size="4" name="ano" placeholder="2016">--%>
+			
+			<br><label for="lname"><b>CIDADE:</b></label>
+			<label for="lname"><b>Caruaru</b></label>
+			<%--<input type="text" required="required" id="lname" size="8" name="placa" placeholder="KKK-0000">--%>
+			
+			<br><label for="lname"><b>SEXO:</b></label>
+			<label for="lname"><b>masc</b></label>
+		    <%--<input type="number" required="required" id="lname" size="6" name="km" placeholder="Km">--%>
+		    
+			<br><label for="lname"><b>FONE:</b></label>
+			<label for="lname"><b>(81) 9 9521-2279</b></label>
+			<%--<input type="text" required="required" id="lname" size="15" name="categoria" placeholder="Ex: Popular, Luxo">--%>
+			
+			
+		 	
+		</fieldset>	
+		</form>
+	</div>
 		
 		
 		

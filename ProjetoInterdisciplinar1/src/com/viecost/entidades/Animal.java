@@ -2,14 +2,15 @@ package com.viecost.entidades;
 
 public class Animal {
 
-	private int id;
+	private Integer id;
 	private String nome;
 	private String raca;
-	private int idade;
+	private Integer idade;
 	private String sexo;
 	private String pelagem;
 	private String porte;
 	private String especificacao;
+	private String imagem;
 	
 	
 	public String getEspecificacao() {
@@ -18,10 +19,10 @@ public class Animal {
 	public void setEspecificacao(String especificacao) {
 		this.especificacao = especificacao;
 	}
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getNome() {
@@ -36,10 +37,10 @@ public class Animal {
 	public void setRaca(String raca) {
 		this.raca = raca;
 	}
-	public int getIdade() {
+	public Integer getIdade() {
 		return idade;
 	}
-	public void setIdade(int idade) {
+	public void setIdade(Integer idade) {
 		this.idade = idade;
 	}
 	public String getSexo() {
@@ -60,14 +61,16 @@ public class Animal {
 	public void setPorte(String porte) {
 		this.porte = porte;
 	}
+	public String getImagem() {
+		return imagem;
+	}
+	public void setImagem(String imagem) {
+		this.imagem = imagem;
+	}
 
 	@Override
 	public String toString() {
 		return "Animal [nome=" + nome + ", raca=" + raca + ", idade=" + idade + ", sexo=" + sexo + ", pelagem="
 				+ pelagem + ", porte=" + porte + "]";
 	}
-	
-	
-	
-	
 }

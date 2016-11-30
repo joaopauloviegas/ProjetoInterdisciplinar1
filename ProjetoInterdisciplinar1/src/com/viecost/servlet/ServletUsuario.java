@@ -29,53 +29,46 @@ public class ServletUsuario extends HttpServlet {
     }
 
 	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		String acao = request.getParameter("acao");
-		Fachada f = Fachada.getInstance();
-		
+		RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
 		
 		if ((acao != null) && (acao.equals("cadastrar"))) {
 			Usuario usuario = new Usuario();
+			usuario.setId(0);
 			usuario.setNome("");
-			usuario.setEmail("");
 			usuario.setSenha("");
 			usuario.setCidade("");
-			usuario.setSexo("");
+			usuario.setEmail("");
 			usuario.setFone("");
+			usuario.setSexo("");
+			
 			request.setAttribute("usuario", usuario);
-			try {
-				f.cadastarUsuario(usuario);
-			} catch (IllegalArgumentException | SQLException | UsuarioJaCadastradoException
-					| CampoObrigatorioException e) {
-				e.printStackTrace();
-			}
-			PrintWriter saida = response.getWriter();
-			saida.print("Salvo com sucesso!");
-			RequestDispatcher saida2 = request.getRequestDispatcher("index.jsp");
-			saida2.forward(request, response);
+			RequestDispatcher saida = request.getRequestDispatcher("index.jsp");
+			saida.forward(request, response);
 		} else if ((acao != null) && (acao.equals("alterar"))){
-			String idUsuario = request.getParameter("id");
-			Usuario usuario = f.procurarUsuario(Integer.parseInt(idUsuario));
-			request.setAttribute("usuarios", usuario);
-			RequestDispatcher saida2 = request.getRequestDispatcher("index.jsp");
-			saida2.forward(request, response);
-		} else if((acao != null) && (acao.equals("excluir"))){
+			String id = request.getParameter("id");
+			Usuario usuario = repositorioUsuario.procurarUsuario(Integer.parseInt(id));
+			request.setAttribute("usuario", usuario);
+			RequestDispatcher saida = request.getRequestDispatcher("PerfilUsuario.jsp");
+			saida.forward(request, response);
+		} else if ((acao != null) && (acao.equals("listar"))){
+			List<Usuario> lista = repositorioUsuario.listarUsuario();
+			request.setAttribute("lista", lista);
+			RequestDispatcher saida = request.getRequestDispatcher("usuarios.jsp");
+			saida.forward(request, response);
+		} else if ((acao != null) && (acao.equals("excluir"))){
 			String id = request.getParameter("id");
 			Usuario usuario = new Usuario();
 			usuario.setId(Integer.parseInt(id));
-			f.removerUsuario(Integer.parseInt(id));
+			repositorioUsuario.removerUsuario(usuario);
 			response.sendRedirect("usuarioControle?acao=listar");
-		} else if ((acao != null) && (acao.equals("listar"))) {
-			List<Usuario> lista = f.listarUsuario();
-			request.setAttribute("lista", lista);
-			RequestDispatcher saida = request.getRequestDispatcher("index.jsp");
-			saida.forward(request, response);
 		}
 	}
 
-	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		
 		String nomeUsuario = request.getParameter("nome");
 		String emailUsuario = request.getParameter("email");
@@ -85,7 +78,6 @@ public class ServletUsuario extends HttpServlet {
 		String telefoneUsuario = request.getParameter("telefone");
 		
 		Usuario usuario = new Usuario();
-		//RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
 		usuario.setNome(nomeUsuario);
 		usuario.setEmail(emailUsuario);
 		usuario.setSenha(senhalUsuario);
@@ -107,7 +99,6 @@ public class ServletUsuario extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		//repositorioUsuario.Salvar(usuario);
 		PrintWriter saida = response.getWriter();
 		saida.print("Salvo com sucesso!");
 		RequestDispatcher saida2 = request.getRequestDispatcher("index.jsp");

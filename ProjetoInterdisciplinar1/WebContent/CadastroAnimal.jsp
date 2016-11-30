@@ -53,18 +53,18 @@
 					<h3>Cadastro do Animal</h3>
 					<form action="ServletUsuario" method="post">
 						<div class="key">
-							
-							<input  type="text"  name="nome" required=""  placeholder="Nome">
+							<input  type="hidden"  name="id">
+							<input  type="text"  name="nome" required placeholder="Nome">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="text"  name="raca"  required=""  placeholder="Raca">
+							<input  type="text"  name="raca"  required  placeholder="Raca">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							
-							<input  type="text"  name="idade"  required="" placeholder="Idade">
+							<input  type="text"  name="idade"  required placeholder="Idade">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
@@ -103,10 +103,8 @@
 							<div class="clearfix"></div>
 						</div>
 						
-							<form enctype="multipart/form-data" action="salvar.php" method="post">
-    							Imagem: <input name="userfile" type="file" />
-    							<input type="submit" value="Enviar" />
-							</form>
+							Imagem:<input type="file" name="imagem"><br/>
+							
 						<input type="submit" value="Cadastrar">
 					</form>
 				</div>

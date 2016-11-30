@@ -1,15 +1,14 @@
 package com.viecost.controladores;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import com.viecost.entidades.Animal;
-import com.viecost.repositorio.IRepositorioAnimal;
 import com.viecost.repositorio.RepositorioAnimal;
 
 
 public class ControladorAnimal {
 
-	private IRepositorioAnimal repositorioAnimal;
+private RepositorioAnimal repositorioAnimal;
 	
 	//CONTROLADOR
 	public ControladorAnimal(){
@@ -27,8 +26,8 @@ public class ControladorAnimal {
 	}
 	
 	//METODO REMOVER 
-	public boolean removerAnimal(int id){
-		return this.repositorioAnimal.removerAnimal(id);
+	public void removerAnimal(Animal animal){
+		this.repositorioAnimal.removerAnimal(animal);
 	}
 	
 	//METODO PROCURAR 
@@ -37,7 +36,7 @@ public class ControladorAnimal {
 	}
 	
 	//METODO LISTAR
-	public ArrayList<Animal> listarAnimal(){
+	public List<Animal> listarAnimal(){
 		return this.repositorioAnimal.listarAnimal();
 	}
 }// fim da classe

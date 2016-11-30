@@ -1,17 +1,16 @@
 package com.viecost.controladores;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
+import java.util.List;
 
 import com.viecost.entidades.Usuario;
-import com.viecost.repositorio.IRepositorioUsuario;
 import com.viecost.repositorio.RepositorioUsuario;
 import com.viecost.util.CampoObrigatorioException;
 import com.viecost.util.UsuarioJaCadastradoException;
 
 public class ControladorUsuario {
 	
-	private RepositorioUsuario repositorioUsuario;
+private RepositorioUsuario repositorioUsuario;
 	
 	
 	//CONTROLADOR
@@ -40,8 +39,8 @@ public class ControladorUsuario {
 	}
 	
 	//METODO REMOVER 
-	public boolean removerUsuario(int id){
-		return this.repositorioUsuario.removerUsuario(id);
+	public void removerUsuario(Usuario usuario){
+		this.repositorioUsuario.removerUsuario(usuario);
 	}
 	
 	//METODO PROCURAR 
@@ -50,10 +49,7 @@ public class ControladorUsuario {
 	}
 	
 	//METODO LISTAR
-	public ArrayList<Usuario> listarUsuario(){
+	public List<Usuario> listarUsuario(){
 		return this.repositorioUsuario.listarUsuario();
 	}
-	
-	
-
 }
