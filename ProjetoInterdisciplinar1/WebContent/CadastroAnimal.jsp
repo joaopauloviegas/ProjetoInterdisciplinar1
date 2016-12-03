@@ -105,6 +105,7 @@
 						
 							Imagem:<input type="file" name="imagem"><br/>
 							
+							
 						<input type="submit" value="Cadastrar">
 					</form>
 				</div>
@@ -145,7 +146,7 @@
 			<h4>Minha Conta</h4> 
 			<ul>
 				
-				<li><a href="login.html">Login</a></li>
+				<li><a href="login.jsp">Login</a></li>
 				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>

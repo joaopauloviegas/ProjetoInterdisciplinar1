@@ -108,78 +108,7 @@
 					<h5>2anos</h5>
 					<h5>Vira lata</h5>
 					<h5>Adoção</h5>
-				</div>
-				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog3.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Spike</h4>
-					<h5>3anos</h5>
-					<h5>Pitbull</h5>
-					<h5>Adoção</h5>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="women-set2">
-				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/cat1.jpg" alt="" />
-					
-					</div></a>
-					
-					<h4>Mimu</h4>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog4.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Luke</h4>
-					<h5>Perdido</h5>
-				</div>
-				<div class="col-md-4 women-grids wp6 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog5.jpg" alt="" />
-						
-					</div></a>
-				
-					<h4>Max</h4>
-					<h5>Perdido</h5>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="women-set3">
-				<div class="col-md-4 women-grids mp7 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog6.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Clark</h4>
-					<h5>Procurando pretendente</h5>
-				</div>
-				<div class="col-md-4 women-grids wp8 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog7.jpg" alt="" />
-						
-					</div></a>
-					
-					<h4>Apolo</h4>
-					<h5>Procurando pretendente</h5>
-				</div>
-				<div class="col-md-4 women-grids wp9 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="detalhe1.jsp"><div class="product-img">
-						<img src="imagens/dog8.jpg" alt="" />
-					</div></a>
-					
-					<h4>Scob</h4>
-					<h5>Procurando pretendente</h5>
-				</div>
-				<div class="clearfix"></div> --%>
+				</div>--%>
 			</div>
 		</div>
 	</div>

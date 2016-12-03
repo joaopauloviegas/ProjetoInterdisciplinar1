@@ -33,10 +33,10 @@
 			<nav class="navbar navbar-default">
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
-						<li><a href="index.html" class="hyper "><span>Inicio</span></a></li>	
-						<li><a href="index.html" class="hyper"><span>Adote um animal</span></a></li>
-						<li><a href="index.html" class="hyper"><span> Encontre um par</span></a></li>
-						<li><a href="index.html" class="hyper"><span>Perdidos</span></a></li>
+						<li><a href="index.jsp" class="hyper "><span>Inicio</span></a></li>	
+						<li><a href="AdoteUmAnimal.jsp" class="hyper"><span>Adote um animal</span></a></li>
+						<li><a href="EncontreUmpar.jsp" class="hyper"><span> Encontre um par</span></a></li>
+						<li><a href="AnimaisPerdidos.jsp" class="hyper"><span>Perdidos</span></a></li>
 						<li><a href="DoadoresSangue.jsp" class="hyper"><span>Doadores de Sangue</span></a></li>
 					
 					</ul>
@@ -71,32 +71,56 @@
 		
 		
 		<div>
-		<form method = "post" action ="Servelet">
-		<fieldset><legend>PERFIL</legend>
-			<label for="lname"><b>NOME:</b></label>
-			<label for="lname"><b>João Paulo</b></label>
-			<%--<input type="text" required="required" id="lname" size="40" name="nome" placeholder="Nome do Veiculo">--%>
-			
-			<br><label for="lname"><b>EMAIL:</b></label>
-			<label for="lname"><b>JoãoPaulo@hotmail.com</b></label>
-			<%--<input type="number" required="required" id="lname" size="4" name="ano" placeholder="2016">--%>
-			
-			<br><label for="lname"><b>CIDADE:</b></label>
-			<label for="lname"><b>Caruaru</b></label>
-			<%--<input type="text" required="required" id="lname" size="8" name="placa" placeholder="KKK-0000">--%>
-			
-			<br><label for="lname"><b>SEXO:</b></label>
-			<label for="lname"><b>masc</b></label>
-		    <%--<input type="number" required="required" id="lname" size="6" name="km" placeholder="Km">--%>
-		    
-			<br><label for="lname"><b>FONE:</b></label>
-			<label for="lname"><b>(81) 9 9521-2279</b></label>
-			<%--<input type="text" required="required" id="lname" size="15" name="categoria" placeholder="Ex: Popular, Luxo">--%>
-			
-			
-		 	
-		</fieldset>	
-		</form>
+		<fieldset>
+		 <legend>PERFIL</legend>
+		 <table cellspacing="10">
+		  <tr>
+		   	<td>
+		    	<label for="nome">NOME: </label>
+		    </td>
+		    <td align="left">
+		    	<input type="text" name="nome">
+		   	</td>
+		  </tr>
+		  <tr>
+		  	<td>
+		    	<label for="email">EMAIL:  </label>
+		   	</td>
+		   	<td align="left">
+		    	<input type="text" name="email">
+		   	</td>
+		  </tr>
+		  <tr>
+		   	<td>
+		   		<label for="cidadde">CIDADE</label>
+		   	</td>
+		  	<td align="left">
+		    	<input type="text" name="cidade">
+		   	</td>
+		  </tr>
+		  <tr>
+		   	<td>
+		    	<label for="sexo">SEXO: </label>
+		   	</td>
+		   	<td align="left">
+		    	<input type="text" name="sexo">
+		   	</td>
+		  </tr>
+		  <tr>
+		   	<td>
+		    	<label for="telefone">TELEFONE: </label>
+		   	</td>
+		   	<td align="left">
+		    	<input type="text" name="telefone">
+		   	</td>
+		  </tr>
+		 </table>
+		</fieldset>
+		
+		<ul class="nav navbar-nav ">
+			<li><a href="CadastroUsuario.jsp" class="hyper "><span>Editar Informações</span></a></li>	
+			<li><a href="CadastroAnimal.jsp" class="hyper"><span>Cadastrar Animal</span></a></li>
+		</ul>
 	</div>
 		
 		
@@ -108,11 +132,11 @@
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.html"><h3>Encontre 1 Amigo</h3></a>
+		<a href="index.jsp"><h3>Pet Amigo</h3></a>
 		<ul>
 			<li>Caruaru</li>
 			<li>Pernanbuco.</li>
-			<li><a href="mailto:info@example.com">encontre1amigo@outlook.com</a></li>
+			<li><a href="mailto:info@example.com">petamigo@outlook.com</a></li>
 			<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -121,17 +145,17 @@
 		<div class="col-md-3 footer-grids fgd2">
 			<h4>Informações</h4> 
 			<ul>
-				<li><a href="contact.html">Fale Conosco</a></li>
-				<li><a href="icons.html">Dicas</a></li>
-				<li><a href="typography.html">Quem somos</a></li>
+				<li><a href="FaleConosco.jsp">Fale Conosco</a></li>
+				<li><a href="Dicas.jsp">Dicas</a></li>
+				<li><a href="QuemSomos.jsp">Quem somos</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Animais</h4> 
 			<ul>
-				<li><a href="jewellery.html">Adote</a></li>
-				<li><a href="cosmetics.html">Encontre um par</a></li>
-				<li><a href="Shoes.html">Animais Perdidos</a></li>
+				<li><a href="AdoteUmAnimal.jsp">Adote</a></li>
+				<li><a href="EncontreUmPar.jsp">Encontre um par</a></li>
+				<li><a href="AnimaisPerdidos.jsp">Animais Perdidos</a></li>
 				
 			</ul>
 		</div>
@@ -139,8 +163,8 @@
 			<h4>Minha Conta</h4> 
 			<ul>
 				
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Se cadastre</a></li>
+				<li><a href="login.jsp">Login</a></li>
+				<li><a href="CadastroUsuario.jsp">Se cadastre</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
